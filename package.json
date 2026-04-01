@@ -1,0 +1,13 @@
+{
+  "name": "@anthropic-agents/agent-context",
+  "version": "1.0.0",
+  "description": "Context window management for AI agents — auto-compact, token tracking, and smart conversation summarization to prevent context overflow.",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": { ".": { "import": "./dist/index.js", "types": "./dist/index.d.ts" } },
+  "scripts": { "build": "tsc", "dev": "tsc --watch" },
+  "keywords": ["ai", "agent", "context-window", "compaction", "llm", "token-management", "summarization"],
+  "license": "MIT",
+  "devDependencies": { "typescript": "^5.4.0" }
+}
