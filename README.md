@@ -1,4 +1,4 @@
-# @anthropic-agents/agent-context
+# @rishabjs03/agent-context
 
 > Context window management for AI agents — auto-compact, token tracking, and smart summarization.
 
@@ -16,16 +16,16 @@ Extracted from a production AI coding agent. Prevents context overflow with proa
 ## Install
 
 ```bash
-npm install @anthropic-agents/agent-context
+npm install @rishabjs03/agent-context
 ```
 
 ## Quick Start
 
 ```typescript
-import { ContextManager, createContextManager } from '@anthropic-agents/agent-context';
+import { ContextManager, createContextManager } from '@rishabjs03/agent-context';
 
 const ctx = createContextManager('claude-sonnet-4-20250514', async (conversation, systemPrompt) => {
-  const response = await anthropic.messages.create({
+  const response = await llm.messages.create({
     model: 'claude-3-5-haiku-20241022',
     system: systemPrompt,
     messages: [{ role: 'user', content: conversation }],

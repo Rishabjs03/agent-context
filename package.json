@@ -1,5 +1,5 @@
 {
-  "name": "@anthropic-agents/agent-context",
+  "name": "@rishabjs03/agent-context",
   "version": "1.0.0",
   "description": "Context window management for AI agents — auto-compact, token tracking, and smart conversation summarization to prevent context overflow.",
   "type": "module",

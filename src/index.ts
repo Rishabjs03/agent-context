@@ -1,5 +1,5 @@
 /**
- * @anthropic-agents/agent-context
+ * @rishabjs03/agent-context
  *
  * Context window management for AI agents.
  * Prevents context overflow with auto-compaction, token tracking,
